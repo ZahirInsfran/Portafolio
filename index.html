@@ -1,0 +1,46 @@
+<!--html: Genera la estructura básica de un documento HTML.
+ul>li*5: Crea una lista no ordenada con cinco elementos de lista.
+div>h1+p: Crea una div que contiene un encabezado (h1) seguido de un párrafo (p).
+input[type=text]+input[type=password]: Crea dos campos de entrada,
+uno para texto y otro para contraseña. --->
+
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahir</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="encabezado__menu">
+            <a class="encabezado__menu__link" href="/CURSO 6 FINAL HTMLCSS/index.html">Home</a>
+            <a class="encabezado__menu__link" href="/CURSO 6 FINAL HTMLCSS/about.html">Sobre mi</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+    <section class="presentacion__contenido">
+        <h1 class="presentacion__contenido__titulo">
+            <strong class="tituloDest">Colaboremos</strong> para crear el producto ideal!
+        </h1>
+        <p class="presentacion__contenido__texto">
+            Soy Zahir,desarrollador back end JR con conocimientos en el area de 
+            Data analitycs. Actualmente me encuentro cursando en la academia de Alura 
+            perfeccionando mis conocimientos y aprendiendo para poder ser parte 
+            en un equipo de trabajo. Ademas de eso me gustan el
+            gaming y la produccion musical.
+        </p>
+        <div class="presentacion__enlaces">
+            <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes:</h2>
+        <a class="presentacion__enlaces__link" href="https://www.instagram.com" title="Mi perfil de Instagram"><img src="/CURSO 5 FEND PART2/assets/instagram.png">Instagram</a>
+        <a class="presentacion__enlaces__link" href="https://github.com/ZahirInsfran" title="Mi perfil de Git Hub"><img src="/CURSO 5 FEND PART2/assets/github.png">Git Hub</a>
+        </div>
+    </section>
+        <img class="presentacion__imagen" src="/CURSO 6 FINAL HTMLCSS/assets/portfolio imagen.jpg" alt="Zaza osea io">
+    </main>
+    <footer class="presentacion__footer">
+        Desarrollado por Zahir Insfran
+    </footer>
+</body>
+</html>
